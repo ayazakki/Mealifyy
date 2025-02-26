@@ -1,0 +1,182 @@
+@media screen and (min-width:640px) {
+    footer .subscribe .input-subscribe {
+        flex-flow: row wrap;
+    }
+
+    footer .subscribe .input-subscribe input {
+        width: 80%;
+        margin-right: .625rem;
+    }
+
+    footer .subscribe .input-subscribe button {
+        height: 2.5rem;
+    }
+}
+@media screen and (min-width:768px) {
+    #chefs .container .cards {
+        flex-flow: row wrap;
+    }
+
+    #chefs .container .cards .inner {
+        width: 50%;
+        padding: 1.25rem;
+    }
+    #gallery .container .img-gallery {
+        gap: .3125rem;
+        display: grid;
+        grid-template-areas:
+            "Pizza Pizza Pizza Pizza Pizza Pizza Beef Beef Beef Beef Beef Beef"
+            "Pizza Pizza Pizza Pizza Pizza Pizza Beef Beef Beef Beef Beef Beef"
+            "Burger Burger Burger Burger Burger Burger Beef Beef Beef Beef Beef Beef"
+            "Burger Burger Burger Burger Burger Burger Beef Beef Beef Beef Beef Beef"
+            "Levitation Levitation Levitation Levitation Levitation Levitation Beef Beef Beef Beef Beef Beef"
+            "Levitation Levitation Levitation Levitation Levitation Levitation Crispy Crispy Crispy Crispy Crispy Crispy"
+            "Levitation Levitation Levitation Levitation Levitation Levitation Crispy Crispy Crispy Crispy Crispy Crispy"
+            "Levitation Levitation Levitation Levitation Levitation Levitation kebab kebab kebab kebab kebab kebab"
+            "Levitation Levitation Levitation Levitation Levitation Levitation kebab kebab kebab kebab kebab kebab"
+            "Frittata Frittata Frittata Frittata Frittata Frittata kebab kebab kebab kebab kebab kebab"
+            "Frittata Frittata Frittata Frittata Frittata Frittata kebab kebab kebab kebab kebab kebab"
+            "Frittata Frittata Frittata Frittata Frittata Frittata . . . . . ."
+            "Frittata Frittata Frittata Frittata Frittata Frittata . . . . . .";
+
+        .Burger {
+            grid-area: Burger;
+        }
+
+        .Pizza {
+            grid-area: Pizza;
+        }
+
+        .Levitation {
+            grid-area: Levitation;
+        }
+
+        .Beef {
+            grid-area: Beef;
+        }
+
+        .Crispy {
+            grid-area: Crispy;
+        }
+
+        .kebab {
+            grid-area: kebab;
+        }
+
+        .Frittata {
+            grid-area: Frittata;
+        }
+
+    }
+
+    #contact .container .content-contact .contact-info {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #contact .container .content-contact .contact-info .item {
+        width: 50%;
+        border-right: .625rem solid var(--background-default);
+    }
+
+    footer .container {
+        flex-flow: row wrap;
+    }
+
+    footer .container .about-mealify {
+        order: 0;
+        width: 50%;
+    }
+
+    footer .container .contact-details {
+        order: 1;
+        width: 50%;
+        padding-top: 3.125rem;
+
+    }
+
+    footer .container .subscribe {
+        order: 2;
+        width: 100%;
+    }
+}
+@media screen and (min-width:1024px) {
+    nav .container .dark-mode .fa-bars {
+        display: none;
+    }
+
+    nav .container .tabs {
+        display: block;
+    }
+
+    #home {
+        height: 100vh;
+    }
+
+    #home .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #home .container .home-content {
+        text-align: start;
+    }
+
+    #home .container .home-content .btns {
+        justify-content: flex-start;
+
+    }
+
+    #home .container .home-content .btns .book-btn {
+        margin-right: 1.875rem;
+    }
+
+    #chefs .container .cards .inner {
+        width: calc(100% / 3);
+    }
+
+    #contact .container .content-contact form .special-inputs {
+        display: flex;
+    }
+
+    #contact .container .content-contact form .special-inputs #name {
+        margin-right: .625rem;
+    }
+
+    #gallery .container .img-gallery {
+        grid-template-areas:
+            "Pizza Pizza Pizza Pizza Beef Beef Beef Beef Burger Burger Burger Burger"
+            "Pizza Pizza Pizza Pizza Beef Beef Beef Beef Burger Burger Burger Burger"
+            "Levitation Levitation Levitation Levitation Beef Beef Beef Beef Crispy Crispy Crispy Crispy"
+            "Levitation Levitation Levitation Levitation Beef Beef Beef Beef Crispy Crispy Crispy Crispy"
+            "Levitation Levitation Levitation Levitation Beef Beef Beef Beef kebab kebab kebab kebab"
+            "Levitation Levitation Levitation Levitation Frittata Frittata Frittata Frittata kebab kebab kebab kebab"
+            "Levitation Levitation Levitation Levitation Frittata Frittata Frittata Frittata kebab kebab kebab kebab"
+            ". . . . Frittata Frittata Frittata Frittata kebab kebab kebab kebab"
+            ". . . . Frittata Frittata Frittata Frittata . . . .";
+    }
+    footer .container .item {
+        width: 25%;
+    }
+
+    footer .container .subscribe {
+        width: 50%;
+    }
+
+    footer .container .contact-details {
+        order: 3;
+        padding-top: 1.25rem;
+    }
+
+    footer .subscribe .input-subscribe input {
+        width: 75%;
+        margin-right: .625rem;
+    }
+
+
+}
+@media screen and (min-height: 1300px)  {
+    #home{
+        height: auto;
+    }
+}
