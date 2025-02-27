@@ -385,7 +385,7 @@ nav .container .dark-mode i {
 #gallery .container .img-gallery {
     display: flex;
     flex-flow: column wrap;
-    gap: .9375rem;
+    gap: 1rem;
 }
 #gallery .container .img-gallery .item {
     position: relative;
